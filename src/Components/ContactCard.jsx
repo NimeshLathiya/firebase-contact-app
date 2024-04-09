@@ -11,7 +11,7 @@ import { toast } from "react-toastify";
 const ContactCard = ({ data }) => {
   const { isOpen, onClose, onOpen } = useDisclouse();
 
-  const deleteContact = async (id) => {
+  const deleteContact = async () => {
     try {
       await deleteDoc(doc(db, "contacts", id));
       toast.success("Contact Deleted Successfully");
