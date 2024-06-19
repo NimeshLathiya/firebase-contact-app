@@ -2,7 +2,7 @@ import React from "react";
 import { createPortal } from "react-dom";
 import { AiOutlineClose } from "react-icons/ai";
 
-const Modal = ({ onClose, isOpen, children }) => {
+const Modal = ({ onClose, isOpen,  }) => {
   return createPortal(
     <>
       {isOpen && (
