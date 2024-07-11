@@ -14,7 +14,7 @@ import NoFoundContact from "./Components/NoFoundContact";
 
 const App = () => {
   const [contacts, setContacts] = useState([]);
-  const { isOpen, onClose, onOpen } = useDisclouse();
+  const { isOpen, onClose,  } = useDisclouse();
 
   let getApiData = async () => {
     try {
