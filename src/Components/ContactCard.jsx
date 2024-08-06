@@ -1,4 +1,4 @@
-import { deleteDoc, doc } from "firebase/firestore";
+import { , doc } from "firebase/firestore";
 import React, { useState } from "react";
 import { HiOutlineUserCircle } from "react-icons/hi";
 import { IoMdTrash } from "react-icons/io";
