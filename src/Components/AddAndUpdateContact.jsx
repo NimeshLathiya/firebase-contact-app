@@ -17,7 +17,7 @@ const AddAndUpdateContact = ({ isOpen, onClose, isUpdate, data }) => {
     try {
       const contactRef = collection(db, "contacts");
       await addDoc(contactRef, contact);
-      ();
+      onClose();
       toast.success("Contact Added Successfully");
     } catch (error) {
       console.log(error);
